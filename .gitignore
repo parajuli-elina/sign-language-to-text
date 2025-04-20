@@ -1,0 +1,42 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual environment
+.venv/
+env/
+venv/
+*.env
+
+# Streamlit config and cache
+.streamlit/
+.cache/
+
+# PyCharm, VS Code, and other IDE settings
+.idea/
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.swp
+*.bak
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# PyTorch
+*.pt
+*.pth
+
+#Dataset
+/data
+
+#Model
+/models
+
+#Kaggle credentials
+kaggle.json
